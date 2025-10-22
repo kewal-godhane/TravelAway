@@ -1,0 +1,30 @@
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.deps.json
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.runtimeconfig.json
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.dll
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.pdb
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.AssemblyInfo.cs
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.dll
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\refint\CureWellDataAccessLayer.dll
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.pdb
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.genruntimeconfig.cache
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\ref\CureWellDataAccessLayer.dll
+C:\Users\rohini.n01\Works\Course ware\Angular\DotNet 6\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.deps.json
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.runtimeconfig.json
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.dll
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\bin\Debug\net8.0\CureWellDataAccessLayer.pdb
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.AssemblyInfo.cs
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.dll
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\refint\CureWellDataAccessLayer.dll
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.pdb
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\CureWellDataAccessLayer.genruntimeconfig.cache
+C:\Users\kewal\Downloads\CapstoneArtifacts1735559450034\CureWell\CureWellDataAccessLayer\obj\Debug\net8.0\ref\CureWellDataAccessLayer.dll
