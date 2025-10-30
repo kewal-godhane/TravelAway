@@ -14,3 +14,19 @@ D:\DotNet\full stack project\TravelAwayDAL\obj\Debug\net8.0\refint\TravelAwayDAL
 D:\DotNet\full stack project\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.pdb
 D:\DotNet\full stack project\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.genruntimeconfig.cache
 D:\DotNet\full stack project\TravelAwayDAL\obj\Debug\net8.0\ref\TravelAwayDAL.dll
+E:\TravelAway\TravelAwayDAL\bin\Debug\net8.0\appsettings.json
+E:\TravelAway\TravelAwayDAL\bin\Debug\net8.0\TravelAwayDAL.deps.json
+E:\TravelAway\TravelAwayDAL\bin\Debug\net8.0\TravelAwayDAL.runtimeconfig.json
+E:\TravelAway\TravelAwayDAL\bin\Debug\net8.0\TravelAwayDAL.dll
+E:\TravelAway\TravelAwayDAL\bin\Debug\net8.0\TravelAwayDAL.pdb
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.csproj.AssemblyReference.cache
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.AssemblyInfoInputs.cache
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.AssemblyInfo.cs
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.csproj.CoreCompileInputs.cache
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.sourcelink.json
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.dll
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\refint\TravelAwayDAL.dll
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.pdb
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\TravelAwayDAL.genruntimeconfig.cache
+E:\TravelAway\TravelAwayDAL\obj\Debug\net8.0\ref\TravelAwayDAL.dll
