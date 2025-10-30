@@ -1,0 +1,67 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div class="signup">
+    <h1 style="text-align:left">Book Package</h1>
+    <form #signupForm="ngForm" (ngSubmit)="SubmitForm(signupForm)">
+      <div class="form-group">
+        <input type="text" name="contactNumber" placeholder="Contact Number" class="form-control forminputs" #contactNumberRef="ngModel" ngModel required pattern="[1-9]{1}[0-9]{9}" />
+      </div>
+      <div *ngIf="contactNumberRef.errors && (contactNumberRef.dirty || contactNumberRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!contactNumberRef.errors['required']">
+          <p>&nbsp;Contact is mandatory</p>
+        </div>
+        <div [hidden]="!contactNumberRef.errors['pattern']">
+          <p>&nbsp;Contact number should be of 10 digits, cannot start with 0 and only numbers allowed.</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <textarea placeholder="Address" name="address" class="form-control forminputs" #addressRef="ngModel" ngModel required></textarea>
+      </div>
+      <div *ngIf="addressRef.errors && (addressRef.dirty || addressRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!addressRef.errors['required']">
+          <p>&nbsp;Address is mandatory</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="date" name="dateofTravel" placeholder="Travel Date" class="form-control forminputs" #doTravelRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="doTravelRef.errors && (doTravelRef.dirty || doTravelRef.touched)" style="text-align:left; color:red;">
+        <div [hidden]="!doTravelRef.errors['required']">
+          <p>&nbsp;Date of Travel is mandatory</p>
+        </div>
+      </div>
+      <div *ngIf="doTravelRef.value && doTravelRef.value> todayDate" style="text-align:left; color:red;">
+        <p>&nbsp; Date of Travel can not be in future</p>
+      </div>
+
+      <div class="form-group">
+        <input type="number" name="NoOfAdults" placeholder="No Of Adults" min="1" class="form-control forminputs" #NoOfAdultsRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="NoOfAdultsRef.errors && (NoOfAdultsRef.dirty || NoOfAdultsRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!NoOfAdultsRef.errors['required']">
+          <p>&nbsp;No of Adults is mandatory</p>
+        </div>
+        <div [hidden]="!NoOfAdultsRef.errors['min']">
+          <p>&nbsp;No of Adults cannot be 0</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="number" name="NoOfChildren" placeholder="No Of Children" min="0" class="form-control forminputs" #NoOfChildrenRef="ngModel" ngModel required />
+      </div>
+      <div *ngIf="NoOfChildrenRef.errors && (NoOfChildrenRef.dirty || NoOfChildrenRef.touched)" style="text-align:left;color:red;">
+        <div [hidden]="!NoOfChildrenRef.errors['required']">
+          <p>&nbsp;No of Children is mandatory</p>
+        </div>
+      </div>
+      <button type="submit" id="formsubmit" [disabled]="!signupForm.form.valid">Go</button>
+      <div *ngIf="showDiv" style="color:red;text-align:center;">
+        <br />
+        {{msg}}
+      </div>
+    </form>
+  </div>
+</div>
+

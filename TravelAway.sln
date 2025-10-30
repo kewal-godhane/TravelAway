@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAwayDAL", "TravelAwayDAL\TravelAwayDAL.csproj", "{BCB6B8F4-0E07-D316-68A9-23B263564BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAwayWebServices", "TravelAwayWebServices\TravelAwayWebServices.csproj", "{14533217-726B-965A-5633-7D02219725BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB6B8F4-0E07-D316-68A9-23B263564BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB6B8F4-0E07-D316-68A9-23B263564BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB6B8F4-0E07-D316-68A9-23B263564BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB6B8F4-0E07-D316-68A9-23B263564BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14533217-726B-965A-5633-7D02219725BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14533217-726B-965A-5633-7D02219725BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14533217-726B-965A-5633-7D02219725BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14533217-726B-965A-5633-7D02219725BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#packages {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+#pkgheading {
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.table-responsive {
+  width: 100%;
+  height: 330px;
+  overflow-y: scroll;
+}
+
+.table {
+  width: 100%;
+  border: 2px solid rgba(220, 230, 242, 1);
+}
+
+  .table th {
+    background-color: rgba(220, 230, 242, 1);
+    font-size: 12pt;
+  }
+
+  .table td {
+    background-color: white;
+  }
+
+.jumbotron {
+  text-align: center;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.pkgrow {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+  .pkgrow:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+.pkgcol h3 {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pkgcol p {
+  margin: 0;
+  padding: 0;
+  color: #555;
+}
+
+.pkgimg {
+  height: 140px;
+  width: 100%;
+  min-height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  .pkgimg:hover {
+    opacity: 0.8;
+  }
+
+@media (max-width: 768px) {
+  .pkgrow {
+    flex-direction: column;
+  }
+
+  .pkgcol {
+    width: 100%;
+  }
+}

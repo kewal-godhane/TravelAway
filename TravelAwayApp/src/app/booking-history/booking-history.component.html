@@ -1,0 +1,28 @@
+<app-user-layout></app-user-layout>
+<div class="content">
+  <div id="packages">
+    <h1 id="pkgheading">Booking History</h1>
+    <div class="table-responsive">
+      <table class="table" style="border:2px solid rgba(220,230,242,1);" *ngIf="bookingHistory && bookingHistory.length">
+        <tr style="background-color:rgba(220,230,242,1); font-size:12pt">
+          <th>Booking ID</th>
+          <th>Contact Number</th>
+          <th>Date of Travel</th>
+          <th>Adults</th>
+          <th>Children</th>
+          <th>Status</th>
+        </tr>
+        <tr *ngFor="let book of bookingHistory" style="background-color:white">
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;{{book.bookingId}}</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;{{book.contactNumber}}</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;{{book.dateOfTravel | date: 'shortDate'}}</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;{{book.numberOfAdults}}</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{book.numberOfChildren}}</td>
+          <td>{{book.status}}</td>
+      </table>
+      <div *ngIf="showError">
+        <h4 class="jumbotron" style="text-align:center;">{{errorMsg}}</h4>
+      </div>
+    </div>
+  </div>
+</div>

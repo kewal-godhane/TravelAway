@@ -1,0 +1,77 @@
+<app-employee-layout></app-employee-layout>
+<div class="container mt-5">
+
+  <h3>Choose type to generate report</h3>
+
+  <select [(ngModel)]="selectedReport" class="form-select mb-4">
+    <option value="">--Select Report Type--</option>
+    <option value="bookings">Number of bookings based on Package Name</option>
+    <option value="packages">Package Count By Package Category</option>
+
+  </select>
+
+  <div *ngIf="selectedReport === 'bookings'">
+
+    <table class="table table-bordered">
+
+      <thead>
+
+        <tr>
+
+          <th>Bookings Based On Package Name</th>
+
+          <th>Number of Bookings</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let booking of bookingsData">
+
+          <td>{{ booking.packageName }}</td>
+
+          <td>{{ booking.bookingCount }}</td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <div *ngIf="selectedReport === 'packages'">
+
+    <table class="table table-bordered">
+
+      <thead>
+
+        <tr>
+
+          <th>Package Category Id</th>
+
+          <th>Number of Packages</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let pkg of packagesData">
+
+          <td>{{ pkg.categoryName }}</td>
+
+          <td>{{ pkg.packageCount }}</td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>
