@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelAwayDAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa27c9f42ad02f05a06be6dd9db0c1d323b4073e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92da1e91de6756cd33d539b746c46c49e5e7dc43")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelAwayDAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelAwayDAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
