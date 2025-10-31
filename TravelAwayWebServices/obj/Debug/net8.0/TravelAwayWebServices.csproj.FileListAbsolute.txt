@@ -151,3 +151,4 @@ E:\TravelAway\TravelAwayWebServices\obj\Debug\net8.0\refint\TravelAwayWebService
 E:\TravelAway\TravelAwayWebServices\obj\Debug\net8.0\TravelAwayWebServices.pdb
 E:\TravelAway\TravelAwayWebServices\obj\Debug\net8.0\TravelAwayWebServices.genruntimeconfig.cache
 E:\TravelAway\TravelAwayWebServices\obj\Debug\net8.0\ref\TravelAwayWebServices.dll
+E:\TravelAway\TravelAwayWebServices\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
