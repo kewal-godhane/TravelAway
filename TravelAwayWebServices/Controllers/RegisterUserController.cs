@@ -1,6 +1,7 @@
 ﻿using Infosys.TravelAwayDAL.Models;
 using Infosys.TravelAwayDAL.TravelAwayRepository;
 using Infosys.TravelAwayWebServices.Models;
+using Infosys.TravelAwayWebServices.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Infosys.TravelAwayWebServices.Controllers
@@ -10,25 +11,43 @@ namespace Infosys.TravelAwayWebServices.Controllers
     public class RegisterUserController:Controller
     {
         RegisterUserRepositiory rep;
-       public RegisterUserController(RegisterUserRepositiory repo)
+        private readonly TokenService _tokenService;
+        public RegisterUserController(RegisterUserRepositiory repo, TokenService tokenService)
         {
             this.rep = repo;
+            _tokenService = tokenService;
+
         }
 
         [HttpPost]
-        public int AddCustomer(CustomerModel custobj)
+        public IActionResult AddCustomer(CustomerModel custobj)
         {
             int role;
             try
             {
-                role = rep.RegisterNewCustomer(custobj.EmailId, custobj.RoleId, custobj.FirstName, custobj.LastName, custobj.ContactNumber,
+                role = rep.RegisterNewCustomer(custobj.EmailId, custobj.RoleId, custobj.FirstName,
+                    custobj.LastName,
+                    custobj.ContactNumber,
                     custobj.Address, custobj.DateOfBirth, custobj.Gender, custobj.UserPassword);
             }
             catch(Exception) 
             {
-                role=-99;
+                return StatusCode(500, "An error occurred during registertion."); ;
             }
-            return role;
+            Customer customer = new Customer();
+            customer.RoleId = custobj.RoleId;
+            customer.EmailId = custobj.EmailId;
+            var token = _tokenService.CreateToken(customer);
+            //if()
+            return Json(new
+            {
+                token,
+                user = new
+                {
+                    customer.EmailId,
+                    customer.RoleId
+                }
+            }); 
         }
     }
 }
